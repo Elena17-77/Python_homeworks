@@ -1,5 +1,6 @@
-def fizz_buzz(n):
-    for x in range(1, n+1):
+x = int(input())
+def fizz_buzz(x):
+    for x in range(1, x+1):
      if (x % 3 == 0):
       print('fizz') 
      elif(x % 5 == 0):
@@ -8,7 +9,7 @@ def fizz_buzz(n):
       print('fizz_buzz')
      else:
        print(x)
-n = fizz_buzz(30)      
+n = fizz_buzz(x)      
 
      
     

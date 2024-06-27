@@ -6,4 +6,4 @@ def bank(x, y):
 x = float(input("Введите сумму вклада: "))
 y = int(input("Введите срок вклада в годах: "))
 result = bank(x, y)
-print("Сумма на счету пользователя спустя", y, "лет:", result, "рублей")    
+print (round( result, 2))    
