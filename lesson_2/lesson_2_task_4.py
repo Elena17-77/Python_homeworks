@@ -1,19 +1,14 @@
-x = int(input())
-def fizz_buzz(x):
-    for x in range(1, x+1):
-     if (x % 3 == 0):
-      print('fizz') 
-     elif(x % 5 == 0):
-       print('buzz')
-     elif(x % 3 == 0 and x % 5 == 0):
-      print('fizz_buzz')
-     else:
-       print(x)
-n = fizz_buzz(x)      
+n = int(input("Введите число: "))
 
-     
-    
-     
-    
+def fizz_buzz(n):
+    for n in range(1, n+1):
+      if (n % 3 == 0) and (n % 5 == 0):
+            print("FizzBuzz")
+      elif n % 5 == 0:
+            print('Buzz')
+      elif n % 3 == 0:
+            print("Fizz")
+      else:
+            print(n)
 
-    
+fizz_buzz(n)
